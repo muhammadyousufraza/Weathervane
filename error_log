@@ -1,0 +1,362 @@
+[29-Jun-2024 02:03:22 UTC] Cron reschedule event error for hook: litespeed_task_lqip, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[29-Jun-2024 02:03:22 UTC] Cron unschedule event error for hook: litespeed_task_lqip, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[29-Jun-2024 13:18:53 UTC] PHP Fatal error:  Uncaught Error: Class "TrustindexPlugin_booking" not found in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php:670
+Stack trace:
+#0 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(433): TrustindexPlugin_google->shortcode_func()
+#1 [internal function]: do_shortcode_tag()
+#2 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): do_shortcode()
+#4 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1865): apply_filters()
+#6 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response()
+#7 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item()
+#8 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#9 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#10 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#11 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#12 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#14 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(418): do_action_ref_array()
+#15 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(813): WP->parse_request()
+#16 /home/kdi4rhb7fcrz/public_html/wp-includes/functions.php(1336): WP->main()
+#17 /home/kdi4rhb7fcrz/public_html/wp-blog-header.php(16): wp()
+#18 /home/kdi4rhb7fcrz/public_html/index.php(17): require('/home/kdi4rhb7f...')
+#19 {main}
+  thrown in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php on line 670
+[29-Jun-2024 13:18:56 UTC] PHP Fatal error:  Uncaught Error: Class "TrustindexPlugin_booking" not found in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php:670
+Stack trace:
+#0 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(433): TrustindexPlugin_google->shortcode_func()
+#1 [internal function]: do_shortcode_tag()
+#2 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): do_shortcode()
+#4 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1865): apply_filters()
+#6 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response()
+#7 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item()
+#8 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#9 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#10 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#11 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#12 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#14 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(418): do_action_ref_array()
+#15 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(813): WP->parse_request()
+#16 /home/kdi4rhb7fcrz/public_html/wp-includes/functions.php(1336): WP->main()
+#17 /home/kdi4rhb7fcrz/public_html/wp-blog-header.php(16): wp()
+#18 /home/kdi4rhb7fcrz/public_html/index.php(17): require('/home/kdi4rhb7f...')
+#19 {main}
+  thrown in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php on line 670
+[14-Jul-2024 01:25:08 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[14-Jul-2024 01:25:08 UTC] Cron reschedule event error for hook: litespeed_task_lqip, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[17-Jul-2024 04:29:28 UTC] PHP Fatal error:  Uncaught Error: Class "TrustindexPlugin_booking" not found in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php:670
+Stack trace:
+#0 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(433): TrustindexPlugin_google->shortcode_func()
+#1 [internal function]: do_shortcode_tag()
+#2 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): do_shortcode()
+#4 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1865): apply_filters()
+#6 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response()
+#7 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item()
+#8 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#9 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#10 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#11 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#12 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#14 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(418): do_action_ref_array()
+#15 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(813): WP->parse_request()
+#16 /home/kdi4rhb7fcrz/public_html/wp-includes/functions.php(1336): WP->main()
+#17 /home/kdi4rhb7fcrz/public_html/wp-blog-header.php(16): wp()
+#18 /home/kdi4rhb7fcrz/public_html/index.php(17): require('/home/kdi4rhb7f...')
+#19 {main}
+  thrown in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php on line 670
+[20-Jul-2024 12:26:43 UTC] PHP Fatal error:  Uncaught Error: Class "TrustindexPlugin_booking" not found in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php:670
+Stack trace:
+#0 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(433): TrustindexPlugin_google->shortcode_func()
+#1 [internal function]: do_shortcode_tag()
+#2 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): do_shortcode()
+#4 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1865): apply_filters()
+#6 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response()
+#7 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item()
+#8 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#9 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#10 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#11 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#12 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#14 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(418): do_action_ref_array()
+#15 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(813): WP->parse_request()
+#16 /home/kdi4rhb7fcrz/public_html/wp-includes/functions.php(1336): WP->main()
+#17 /home/kdi4rhb7fcrz/public_html/wp-blog-header.php(16): wp()
+#18 /home/kdi4rhb7fcrz/public_html/index.php(17): require('/home/kdi4rhb7f...')
+#19 {main}
+  thrown in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php on line 670
+[24-Jul-2024 23:08:56 UTC] PHP Fatal error:  Uncaught Error: Class "TrustindexPlugin_booking" not found in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php:670
+Stack trace:
+#0 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(433): TrustindexPlugin_google->shortcode_func()
+#1 [internal function]: do_shortcode_tag()
+#2 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): do_shortcode()
+#4 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1865): apply_filters()
+#6 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response()
+#7 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item()
+#8 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#9 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#10 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#11 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#12 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#14 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(418): do_action_ref_array()
+#15 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(813): WP->parse_request()
+#16 /home/kdi4rhb7fcrz/public_html/wp-includes/functions.php(1336): WP->main()
+#17 /home/kdi4rhb7fcrz/public_html/wp-blog-header.php(16): wp()
+#18 /home/kdi4rhb7fcrz/public_html/index.php(17): require('/home/kdi4rhb7f...')
+#19 {main}
+  thrown in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php on line 670
+[25-Jul-2024 14:57:26 UTC] Cron reschedule event error for hook: litespeed_task_lqip, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[25-Jul-2024 14:57:26 UTC] Cron unschedule event error for hook: litespeed_task_lqip, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[25-Jul-2024 14:57:26 UTC] Cron reschedule event error for hook: litespeed_task_imgoptm_pull, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[25-Jul-2024 14:57:26 UTC] Cron unschedule event error for hook: litespeed_task_imgoptm_pull, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[25-Jul-2024 14:57:27 UTC] Cron reschedule event error for hook: rsssl_every_five_minutes_hook, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"rsssl_five_minutes","args":[],"interval":300}
+[27-Jul-2024 10:20:25 UTC] PHP Fatal error:  Uncaught Error: Class "TrustindexPlugin_booking" not found in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php:670
+Stack trace:
+#0 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(433): TrustindexPlugin_google->shortcode_func()
+#1 [internal function]: do_shortcode_tag()
+#2 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): do_shortcode()
+#4 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1865): apply_filters()
+#6 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response()
+#7 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item()
+#8 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#9 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#10 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#11 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#12 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#14 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(418): do_action_ref_array()
+#15 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(813): WP->parse_request()
+#16 /home/kdi4rhb7fcrz/public_html/wp-includes/functions.php(1336): WP->main()
+#17 /home/kdi4rhb7fcrz/public_html/wp-blog-header.php(16): wp()
+#18 /home/kdi4rhb7fcrz/public_html/index.php(17): require('/home/kdi4rhb7f...')
+#19 {main}
+  thrown in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php on line 670
+[27-Jul-2024 17:26:47 UTC] PHP Fatal error:  Uncaught Error: Class "TrustindexPlugin_booking" not found in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php:670
+Stack trace:
+#0 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(433): TrustindexPlugin_google->shortcode_func()
+#1 [internal function]: do_shortcode_tag()
+#2 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): do_shortcode()
+#4 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1865): apply_filters()
+#6 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response()
+#7 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item()
+#8 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#9 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#10 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#11 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#12 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#14 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(418): do_action_ref_array()
+#15 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(813): WP->parse_request()
+#16 /home/kdi4rhb7fcrz/public_html/wp-includes/functions.php(1336): WP->main()
+#17 /home/kdi4rhb7fcrz/public_html/wp-blog-header.php(16): wp()
+#18 /home/kdi4rhb7fcrz/public_html/index.php(17): require('/home/kdi4rhb7f...')
+#19 {main}
+  thrown in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php on line 670
+[31-Jul-2024 13:11:17 UTC] PHP Fatal error:  Uncaught Error: Class "TrustindexPlugin_booking" not found in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php:670
+Stack trace:
+#0 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(433): TrustindexPlugin_google->shortcode_func()
+#1 [internal function]: do_shortcode_tag()
+#2 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): do_shortcode()
+#4 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1865): apply_filters()
+#6 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response()
+#7 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item()
+#8 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#9 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#10 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#11 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#12 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#14 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(418): do_action_ref_array()
+#15 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(813): WP->parse_request()
+#16 /home/kdi4rhb7fcrz/public_html/wp-includes/functions.php(1336): WP->main()
+#17 /home/kdi4rhb7fcrz/public_html/wp-blog-header.php(16): wp()
+#18 /home/kdi4rhb7fcrz/public_html/index.php(17): require('/home/kdi4rhb7f...')
+#19 {main}
+  thrown in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php on line 670
+[01-Aug-2024 15:05:09 UTC] PHP Fatal error:  Uncaught Error: Class "TrustindexPlugin_booking" not found in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php:670
+Stack trace:
+#0 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(433): TrustindexPlugin_google->shortcode_func()
+#1 [internal function]: do_shortcode_tag()
+#2 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): do_shortcode()
+#4 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1865): apply_filters()
+#6 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response()
+#7 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item()
+#8 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#9 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#10 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#11 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#12 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#14 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(418): do_action_ref_array()
+#15 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(813): WP->parse_request()
+#16 /home/kdi4rhb7fcrz/public_html/wp-includes/functions.php(1336): WP->main()
+#17 /home/kdi4rhb7fcrz/public_html/wp-blog-header.php(16): wp()
+#18 /home/kdi4rhb7fcrz/public_html/index.php(17): require('/home/kdi4rhb7f...')
+#19 {main}
+  thrown in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php on line 670
+[02-Aug-2024 16:55:54 UTC] PHP Fatal error:  Uncaught Error: Class "TrustindexPlugin_booking" not found in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php:670
+Stack trace:
+#0 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(433): TrustindexPlugin_google->shortcode_func()
+#1 [internal function]: do_shortcode_tag()
+#2 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): do_shortcode()
+#4 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1865): apply_filters()
+#6 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response()
+#7 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item()
+#8 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#9 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#10 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#11 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#12 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#14 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(418): do_action_ref_array()
+#15 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(813): WP->parse_request()
+#16 /home/kdi4rhb7fcrz/public_html/wp-includes/functions.php(1336): WP->main()
+#17 /home/kdi4rhb7fcrz/public_html/wp-blog-header.php(16): wp()
+#18 /home/kdi4rhb7fcrz/public_html/index.php(17): require('/home/kdi4rhb7f...')
+#19 {main}
+  thrown in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php on line 670
+[08-Aug-2024 01:00:16 UTC] PHP Fatal error:  Uncaught Error: Class "TrustindexPlugin_booking" not found in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php:670
+Stack trace:
+#0 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(433): TrustindexPlugin_google->shortcode_func()
+#1 [internal function]: do_shortcode_tag()
+#2 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): do_shortcode()
+#4 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1865): apply_filters()
+#6 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response()
+#7 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item()
+#8 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#9 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#10 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#11 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#12 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#14 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(418): do_action_ref_array()
+#15 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(813): WP->parse_request()
+#16 /home/kdi4rhb7fcrz/public_html/wp-includes/functions.php(1336): WP->main()
+#17 /home/kdi4rhb7fcrz/public_html/wp-blog-header.php(16): wp()
+#18 /home/kdi4rhb7fcrz/public_html/index.php(17): require('/home/kdi4rhb7f...')
+#19 {main}
+  thrown in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php on line 670
+[09-Aug-2024 15:08:13 UTC] PHP Fatal error:  Uncaught Error: Class "TrustindexPlugin_booking" not found in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php:670
+Stack trace:
+#0 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(433): TrustindexPlugin_google->shortcode_func()
+#1 [internal function]: do_shortcode_tag()
+#2 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): do_shortcode()
+#4 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1865): apply_filters()
+#6 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response()
+#7 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item()
+#8 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#9 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#10 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#11 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#12 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#14 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(418): do_action_ref_array()
+#15 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(813): WP->parse_request()
+#16 /home/kdi4rhb7fcrz/public_html/wp-includes/functions.php(1336): WP->main()
+#17 /home/kdi4rhb7fcrz/public_html/wp-blog-header.php(16): wp()
+#18 /home/kdi4rhb7fcrz/public_html/index.php(17): require('/home/kdi4rhb7f...')
+#19 {main}
+  thrown in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php on line 670
+[10-Aug-2024 09:16:35 UTC] PHP Fatal error:  Uncaught Error: Class "TrustindexPlugin_booking" not found in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php:670
+Stack trace:
+#0 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(433): TrustindexPlugin_google->shortcode_func()
+#1 [internal function]: do_shortcode_tag()
+#2 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): do_shortcode()
+#4 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1865): apply_filters()
+#6 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response()
+#7 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item()
+#8 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#9 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#10 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#11 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#12 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#14 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(418): do_action_ref_array()
+#15 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(813): WP->parse_request()
+#16 /home/kdi4rhb7fcrz/public_html/wp-includes/functions.php(1336): WP->main()
+#17 /home/kdi4rhb7fcrz/public_html/wp-blog-header.php(16): wp()
+#18 /home/kdi4rhb7fcrz/public_html/index.php(17): require('/home/kdi4rhb7f...')
+#19 {main}
+  thrown in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php on line 670
+[16-Aug-2024 22:00:08 UTC] PHP Fatal error:  Uncaught Error: Class "TrustindexPlugin_booking" not found in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php:670
+Stack trace:
+#0 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(433): TrustindexPlugin_google->shortcode_func()
+#1 [internal function]: do_shortcode_tag()
+#2 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): do_shortcode()
+#4 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1865): apply_filters()
+#6 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response()
+#7 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item()
+#8 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#9 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#10 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#11 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#12 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#14 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(418): do_action_ref_array()
+#15 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(813): WP->parse_request()
+#16 /home/kdi4rhb7fcrz/public_html/wp-includes/functions.php(1336): WP->main()
+#17 /home/kdi4rhb7fcrz/public_html/wp-blog-header.php(16): wp()
+#18 /home/kdi4rhb7fcrz/public_html/index.php(17): require('/home/kdi4rhb7f...')
+#19 {main}
+  thrown in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php on line 670
+[19-Aug-2024 19:48:04 UTC] PHP Fatal error:  Uncaught Error: Class "TrustindexPlugin_booking" not found in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php:670
+Stack trace:
+#0 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(433): TrustindexPlugin_google->shortcode_func()
+#1 [internal function]: do_shortcode_tag()
+#2 /home/kdi4rhb7fcrz/public_html/wp-includes/shortcodes.php(273): preg_replace_callback()
+#3 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): do_shortcode()
+#4 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(1865): apply_filters()
+#6 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php(569): WP_REST_Posts_Controller->prepare_item_for_response()
+#7 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1230): WP_REST_Posts_Controller->get_item()
+#8 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request()
+#9 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch()
+#10 /home/kdi4rhb7fcrz/public_html/wp-includes/rest-api.php(428): WP_REST_Server->serve_request()
+#11 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#12 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#13 /home/kdi4rhb7fcrz/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#14 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(418): do_action_ref_array()
+#15 /home/kdi4rhb7fcrz/public_html/wp-includes/class-wp.php(813): WP->parse_request()
+#16 /home/kdi4rhb7fcrz/public_html/wp-includes/functions.php(1336): WP->main()
+#17 /home/kdi4rhb7fcrz/public_html/wp-blog-header.php(16): wp()
+#18 /home/kdi4rhb7fcrz/public_html/index.php(17): require('/home/kdi4rhb7f...')
+#19 {main}
+  thrown in /home/kdi4rhb7fcrz/public_html/wp-content/plugins/wp-reviews-plugin-for-google/trustindex-plugin.class.php on line 670
+[21-Aug-2024 19:27:36 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[21-Aug-2024 19:27:36 UTC] Cron reschedule event error for hook: litespeed_task_lqip, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[21-Aug-2024 19:27:36 UTC] Cron unschedule event error for hook: litespeed_task_lqip, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[21-Aug-2024 19:27:36 UTC] Cron reschedule event error for hook: litespeed_task_lqip, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[21-Aug-2024 19:27:36 UTC] Cron unschedule event error for hook: litespeed_task_lqip, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[21-Aug-2024 19:27:36 UTC] Cron reschedule event error for hook: litespeed_task_imgoptm_pull, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[21-Aug-2024 19:27:36 UTC] Cron unschedule event error for hook: litespeed_task_imgoptm_pull, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}
+[21-Aug-2024 19:29:09 UTC] Cron reschedule event error for hook: litespeed_task_lqip, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"litespeed_filter","args":[],"interval":60}

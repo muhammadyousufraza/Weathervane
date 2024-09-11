@@ -1,0 +1,2 @@
+(function(t,r,i,p){i=t.createElement(r);i.src="https://www.tripadvisor.com/WidgetEmbed-certificateOfExcellence?year=2020&locationId=565767&display_version=2&uniq=588&lang=en_US";i.async=!0;p=t.getElementsByTagName(r)[0];p.parentNode.insertBefore(i,p)})(document,"script")
+;

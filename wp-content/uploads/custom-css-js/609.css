@@ -1,0 +1,359 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+/*#potoo-galleryy .photoblocks-gallery .pb-image {
+    top: auto !important;
+    left: 0 !important;
+    width: 100%;
+    object-fit: contain;
+}*/
+
+
+
+
+
+/*slider-querry*/
+/*screen 1920*/
+@media (min-width:1920px){
+#top-sliiderr .et_pb_slide, #top-sliiderr .et_pb_module {
+    height: 630px !important;
+}
+}
+
+/*screen 1680*/
+@media (max-width:1700px) and (min-width:1651px){
+#top-sliiderr .et_pb_slide, #top-sliiderr .et_pb_module {
+     height: 530px !important;
+}
+}
+
+/*screen 1600*/
+@media (max-width:1650px) and (min-width:1501px){
+#top-sliiderr .et_pb_slide, #top-sliiderr .et_pb_module {
+     height: 495px !important;
+}
+}
+
+/*screen 1440*/
+@media (max-width:1500px) and (min-width:1401px){
+#top-sliiderr .et_pb_slide, #top-sliiderr .et_pb_module {
+     height: 429px !important;
+}
+}
+
+/*screen 1280*/
+@media (max-width:1300px) and (min-width:1100px){
+#top-sliiderr .et_pb_slide, #top-sliiderr .et_pb_module {
+     height: 364px !important;
+}
+}
+
+/*screen 1024*/
+@media (max-width:1100px) and (min-width:1000px){
+#top-sliiderr .et_pb_slide, #top-sliiderr .et_pb_module {
+     height: 265px !important;
+}
+}
+
+div#top-sliiderr .et_parallax_bg {
+    background-size: contain;
+    background-attachment: fixed !important;
+}
+
+/*mobile slider*/
+div#tab-mob-slider .et_pb_slide {
+    padding: 0px;
+}
+div#tab-mob-slider .et_pb_slide_content {
+    line-height: 0px;
+}
+
+@media (min-width:600px){
+  div#reserv-name, #popmake-1112 .book-reserv, #popmake-1139 .book-reserv {
+    margin-left: -50px;
+}
+div#reserv-code, #popmake-1112 .CloudBedsWidget.ver-3, #popmake-1139 .CloudBedsWidget.ver-1 {
+    margin-left: 50px !important;
+}
+ /* div#top-sliiderr .et-pb-slider-arrows {
+    max-width: 130px;
+    display: block;
+    position: inherit;
+    margin: -30px auto 0;
+}*/
+}
+
+@media (max-width: 981px){
+  #tab-mob-slider .et-pb-arrow-prev{
+    font-size: 20px;
+    left: 5px;
+}
+#tab-mob-slider .et-pb-arrow-next {
+    font-size: 20px;
+    right: 9px;
+}
+  div#tab-mob-slider .et_pb_slide_description {
+    animation: none !important;
+}
+  div#tab-mob-slider .et-pb-arrow-prev {
+    opacity: 1 !important;
+}
+  div#widgethorizontal .et_pb_column {
+    margin-bottom: 0px;
+}
+}
+
+@media (max-width:599px){
+    div#tab-mob-slider .et-pb-slider-arrows {
+    max-width: 60px;
+    display: block;
+    position: inherit;
+    margin: -10px auto 0;
+}
+  #room-underline p {
+    text-align: center;
+}
+  div#r-detail span {
+    font-size: 26px;
+}
+}
+
+
+.page .widgetHotelsForm .acessa_widget_block p{
+    font-size: 20px !important;
+    position: relative;
+    top: -7px;
+}
+#top-sliiderr .et-pb-arrow-prev {
+    opacity: 1 !important;
+    left: 22px !important;
+    font-size: 40px !important;
+}
+#top-sliiderr .et-pb-arrow-next {
+    opacity: 1 !important;
+    right: 22px !important;
+    font-size: 40px !important;
+}
+div#Sticky-headerrr {
+    display: none;
+    position: fixed;
+    width: 100%;
+}
+.pum-container {
+    background-color: #cf7d19 !important;
+  border: 0px !important;
+}
+
+.pum-content.popmake-content {
+    height: 100vh;
+    margin: 25% 0%;
+    text-align: center;
+}
+div#pum-1112 {
+    overflow: hidden;
+    left: -13px;
+    width: 101%;
+}
+
+button.pum-close.popmake-close {
+    top: 15px !important;
+    right: 20px !important;
+    background: #cf7d19 !important;
+    box-shadow: none !important;
+    border: 0px !important;
+    font-size: 40px !important;
+}
+.book-reserv{
+  color: white;
+    font-family: "Dosis";
+    font-weight: 600;
+    font-size: 32px;
+}
+.book-reserv:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    border-bottom: solid 1px;
+    opacity: 1;
+    margin-right: 8px;
+}
+.book-reserv:after {
+	content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    border-bottom: solid 1px;
+    opacity: 1;
+    margin-left: 8px;
+}
+div#pop-menu li.covid-19 a:before, div#pop-menu li.covid-19 a:after, div#pop-menu li.covid-19.current-menu-item a:before, div#pop-menu li.covid-19.current-menu-item a:after{
+  display: none !important;
+}
+div#pop-menu a:before, div#pop-menu .current-menu-item a:before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    border-bottom: solid 1px;
+    opacity: 0;
+    margin-right: 8px;
+}
+div#pop-menu a:after, div#pop-menu .current-menu-item a:after {
+	content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    border-bottom: solid 1px;
+    opacity: 0;
+    margin-left: 8px;
+}
+div#pop-menu a:hover:after, div#pop-menu a:hover:before, div#pop-menu .current-menu-item a:before, div#pop-menu .current-menu-item a:after{
+  opacity: 1;
+}
+div#pop-menu li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 25px;
+}
+#pum-1112 {
+    z-index: 100 !important;
+}
+#potoo-galleryy .photoblocks-gallery .pb-block:hover {
+    transform: none !important;
+  box-shadow: none !important;
+}
+#potoo-galleryy .photoblocks-gallery .pb-block:hover .pb-image {
+    filter: none;
+}
+#potoo-galleryy .photoblocks-gallery .pb-image {
+    top: auto !important;
+}
+#defaultOpen {
+    border-bottom: 2px solid;
+}
+
+/*responsive*/
+@media (min-width:981px){
+  div#siix-certificate .et_pb_column {
+    margin: auto;
+}
+  div#sec-linee li {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+  .page input.widgetHotelsInputText.date {
+    padding: 10px 10px 10px 10px !important;
+    width: 220px !important;
+      font-size: 16px;
+
+}
+}
+
+@media (max-width:981px){
+  div#siix-certificate .et_pb_column {
+    padding: 15px 0px;
+}
+  div#pop-menu .et_pb_menu__menu {
+    display: block !important;
+}
+  div#pop-menu .et_mobile_nav_menu{
+    display: none;
+  }
+  div#menu-book .et_pb_column {
+    width: 48%;
+    display: inline-block;
+}
+  div#pop-menu li {
+    padding-bottom: 10px !important;
+}
+/*   div#lightbox {
+    top: 150px !important;
+} */
+}
+
+@media (max-width:800px) and (min-width:600px){
+div#review-iframe iframe {
+    min-height: 1030px !important;
+  }
+  div#top-sliiderr span.et_parallax_bg {
+        background-size: 183%;
+}
+div#top-sliiderr .et_pb_slider {
+    height: 32vh;
+}
+  .page input.widgetHotelsInputText.date {
+    padding: 10px 10px 10px 10px !important;
+    width: 170px !important;
+      font-size: 16px;
+
+}
+  div#room-underline .et_pb_column {
+    width: 49%;
+    margin: 0 auto;
+    padding: 0px 30px;
+}
+  div#room-underline {
+    width: 100%;
+}
+}
+@media (max-width: 790px) and (min-width:700px){
+  div#top-sliiderr span.et_parallax_bg {
+        background-size: 150% !important;
+}
+  div#popmake-1139 .pum-content.popmake-content {
+    margin-top: 50%;
+}
+}
+
+@media (max-width:599px) {
+div#review-iframe iframe {
+    min-height: 1030px !important;
+  }
+  .page .widgetHotelsForm .acessa_widget_block {
+    display: block !important;
+     width: 80%;
+    margin: 0 auto !important;
+  }
+    .page input.widgetHotelsInputText.date {
+    padding: 10px 10px 10px 10px !important;
+    width: 92% !important;
+      font-size: 16px;
+
+}
+  .page .CloudBedsWidget .widgetHotelsForm a.submit_link {
+    top: 0px !important
+  }
+  .page .pum-container .widgetHotelsForm .acessa_widget_block{
+    width: 100% !important;
+  }
+  div#welcome-weather img {
+    display: none;
+}
+  div#room-inner-header span.text4 {
+    line-height: 40px;
+}
+div#room-underline {
+    padding-top: 10px;
+}
+div#room-underline .et_pb_column {
+    margin-bottom: 10px;
+}
+}
+
+@media (max-width:400px){
+  div#popmake-1173 div#rowblurb {
+    width: 90%;
+}
+}</style>
+<!-- end Simple Custom CSS and JS -->
